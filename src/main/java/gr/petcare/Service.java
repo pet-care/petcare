@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-
+@RequestMapping
 public class Service {
     private String  version = "1.0";
 
@@ -20,14 +20,10 @@ public class Service {
 
     @RequestMapping("/pet")
     public @ResponseBody String getPet() {
-        Pet pet = new Pet();
-        pet.setPetPhoto("Photo");
-        pet.setContactPhone("2321023768");
-        pet.setPetName("Fung");
-        pet.setContactName("John");
 
 
-        return pet.toString();
+
+        return version;
     }
 
 }
