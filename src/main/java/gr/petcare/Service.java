@@ -39,7 +39,7 @@ public class Service {
     @RequestMapping("/new/pet", method = RequestMethod.POST)
     public ResponseEntity<Pet> createPet(@RequestBody @Valid final Pet pet) {
         this.pets.add(pet);
-        //return pet;
+        return null;
 
     }
 
