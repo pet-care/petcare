@@ -9,17 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping
+
 public class Service {
     private String  version = "1.0";
 
     @RequestMapping("/version")
-    public @ResponseBody String getVersion() {
+    public String getVersion() {
         return version;
     }
 
     @RequestMapping("/pet")
-    public @ResponseBody String getPet() {
+    public  String getPet() {
         Pet pet = new Pet();
 
 
