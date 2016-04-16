@@ -14,17 +14,20 @@ public class Service {
     private String  version = "1.0";
 
     @RequestMapping("/version")
-    public String getVersion() {
+    public @ResponseBody String getVersion() {
         return version;
     }
 
     @RequestMapping("/pet")
-    public  String getPet() {
+    public @ResponseBody Pet getPet() {
         Pet pet = new Pet();
+        pet.setPetPhoto("Photo");
+        pet.setContactPhone("2321023768");
+        pet.setPetName("Fung");
+        pet.setContactName("John");
 
 
-
-        return version;
+        return pet;
     }
 
 }
