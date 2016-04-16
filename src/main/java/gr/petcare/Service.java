@@ -12,7 +12,7 @@ import gr.petcare.Pet;
 
 public class Service {
     String version = "1.0";
-    Pet pet;
+
     @RequestMapping("/version")
     public @ResponseBody String getVersion() {
         return version;
