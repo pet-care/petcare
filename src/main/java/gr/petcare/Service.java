@@ -21,7 +21,10 @@ public class Service {
     @RequestMapping("/mock-pet")
     public Pet getPet() {
         MockPetFactory petFactory = new MockPetFactory();
+        petFactory.getPet();
         return  petFactory.getPet();
+
+
     }
 
 }
