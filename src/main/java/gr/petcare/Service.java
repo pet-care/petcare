@@ -7,6 +7,8 @@ package gr.petcare;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 
 @RestController
 
@@ -23,8 +25,11 @@ public class Service {
         MockPetFactory petFactory = new MockPetFactory();
         petFactory.getPet();
         return  petFactory.getPet();
-
-
+    }
+    @RequestMapping("/mock-pets")
+    public List<Pet> getPets() {
+        MockPetFactory petFactory = new MockPetFactory();
+        return  petFactory.getPets();
     }
 
 }

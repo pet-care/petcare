@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e2efcd-9e97-443b-b73a-524f9067a659" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gr/petcare/Service.java" afterPath="$PROJECT_DIR$/src/main/java/gr/petcare/Service.java" />
     </list>
     <ignored path="petcare.iws" />
@@ -53,12 +54,12 @@
       <file leaf-file-name="Service.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="450">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -771,7 +772,7 @@
       <workItem from="1460795083055" duration="541000" />
       <workItem from="1460795719612" duration="3896000" />
       <workItem from="1460799728637" duration="912000" />
-      <workItem from="1460802286550" duration="8904000" />
+      <workItem from="1460802286550" duration="9545000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1460792751617</created>
@@ -962,11 +963,32 @@
       <option name="project" value="LOCAL" />
       <updated>1460812968715</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="removed unused line">
+      <created>1460813389057</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1460813389057</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Deploy">
+      <created>1460813460231</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1460813460231</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Deploy">
+      <created>1460813509030</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1460813509030</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18045000" />
+    <option name="totallyTimeSpent" value="18686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -1032,6 +1054,7 @@
     <MESSAGE value="Deploy base64 code" />
     <MESSAGE value="added mock pet class" />
     <MESSAGE value="added pet mock class" />
+    <MESSAGE value="removed unused line" />
     <MESSAGE value="Deploy" />
     <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
   </component>
@@ -1068,8 +1091,8 @@
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1111,8 +1134,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1154,8 +1177,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1260,12 +1283,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="450">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
           </folding>
         </state>
       </provider>
