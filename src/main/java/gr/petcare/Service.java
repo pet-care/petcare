@@ -20,6 +20,7 @@ public class Service {
 
     @RequestMapping("/pet")
     public @ResponseBody String getPet() {
+        Pet pet = new Pet();
 
 
 
