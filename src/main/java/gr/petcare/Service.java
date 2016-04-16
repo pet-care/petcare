@@ -19,7 +19,7 @@ public class Service {
     }
 
     @RequestMapping("/pet")
-    public @ResponseBody Pet getPet() {
+    public @ResponseBody String getPet() {
         Pet pet = new Pet();
         pet.setPetPhoto("Photo");
         pet.setContactPhone("2321023768");
@@ -27,7 +27,7 @@ public class Service {
         pet.setContactName("John");
 
 
-        return pet;
+        return pet.toString();
     }
 
 }
