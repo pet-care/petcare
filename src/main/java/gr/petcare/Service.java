@@ -6,18 +6,19 @@ package gr.petcare;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-
+import gr.petcare.Pet;
 
 @RestController
 
 public class Service {
     String version = "1.0";
+    Pet pet;
     @RequestMapping("/version")
     public @ResponseBody String getVersion() {
         return version;
     }
 
-    @RequestMapping("pet")
+    @RequestMapping("/pet")
     public @ResponseBody Pet getPet() {
         Pet pet = new Pet();
         pet.setPetPhoto("Photo");
