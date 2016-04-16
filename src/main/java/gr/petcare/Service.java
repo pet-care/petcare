@@ -36,7 +36,7 @@ public class Service {
         this.pets = petFactory.getPets();
         return this.pets;
     }
-    @RequestMapping("/new/pet", method = RequestMethod.POST)
+    @RequestMapping(value = "/new/pet", method = RequestMethod.POST)
     public ResponseEntity<Pet> createPet(@RequestBody @Valid final Pet pet) {
         this.pets.add(pet);
         return null;

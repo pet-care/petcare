@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3e2efcd-9e97-443b-b73a-524f9067a659" name="Default" comment="Deploy">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gr/petcare/Service.java" afterPath="$PROJECT_DIR$/src/main/java/gr/petcare/Service.java" />
     </list>
     <ignored path="petcare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="Service.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="398">
+              <caret line="38" column="59" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -763,7 +762,7 @@
       <workItem from="1460795719612" duration="3896000" />
       <workItem from="1460799728637" duration="912000" />
       <workItem from="1460802286550" duration="10885000" />
-      <workItem from="1460839707305" duration="5641000" />
+      <workItem from="1460839707305" duration="6192000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1460792751617</created>
@@ -982,11 +981,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460843092980</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Deploy add pet post service">
+      <created>1460846171759</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1460846171759</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25667000" />
+    <option name="totallyTimeSpent" value="26218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -1054,6 +1060,7 @@
     <MESSAGE value="added pet mock class" />
     <MESSAGE value="removed unused line" />
     <MESSAGE value="added pet post method" />
+    <MESSAGE value="Deploy add pet post service" />
     <MESSAGE value="Deploy" />
     <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
   </component>
@@ -1300,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="398">
+          <caret line="38" column="59" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
