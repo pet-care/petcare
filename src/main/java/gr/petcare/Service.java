@@ -12,8 +12,10 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLConnection;
 
 
 @RestController
@@ -22,12 +24,12 @@ public class Service {
     private String  version = "1.0";
 
     @RequestMapping("/version")
-    public  String getVersion() {
+    public @ResponseBody String getVersion() {
         return version;
     }
 
     @RequestMapping("/pet")
-    public Pet getPet() {
+    public @ResponseBody Pet getPet() {
         Pet pet = new Pet();
         pet.setPetPhoto("Photo");
         try {
@@ -46,7 +48,6 @@ public class Service {
                     pet.setPetPhoto(base64String);
                 } catch (IOException e) {
                     e.printStackTrace();
-                    e.printStackTrace();
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -55,6 +56,7 @@ public class Service {
 
 
         } catch (MalformedURLException e) {
+                e.printStackTrace();
             e.printStackTrace();
         }
 
