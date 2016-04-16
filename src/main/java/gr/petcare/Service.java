@@ -6,6 +6,16 @@ package gr.petcare;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import sun.misc.BASE64Encoder;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
 
 
 @RestController
@@ -22,6 +32,32 @@ public class Service {
     public @ResponseBody Pet getPet() {
         Pet pet = new Pet();
         pet.setPetPhoto("Photo");
+        try {
+            URL url = new URL("http://i.telegraph.co.uk/multimedia/archive/03119/dog_3119263b.jpg");
+            try {
+                BufferedImage img = ImageIO.read(url);
+
+                String base64String = null;
+                ByteArrayOutputStream bos = new ByteArrayOutputStream();
+                try {
+                    ImageIO.write(img, "jpg", bos);
+                    byte[] imageBytes = bos.toByteArray();
+                    BASE64Encoder encoder = new BASE64Encoder();
+                    base64String = encoder.encode(imageBytes);
+                    bos.close();
+                    pet.setPetPhoto(base64String);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+
+        } catch (MalformedURLException e) {
+                e.printStackTrace();
+        }
+
         pet.setContactPhone("2321023768");
         pet.setPetName("Fung");
         pet.setContactName("John");
