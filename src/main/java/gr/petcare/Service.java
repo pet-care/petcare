@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/")
+
 public class Service {
     String version = "1.0";
     @RequestMapping("/version")
