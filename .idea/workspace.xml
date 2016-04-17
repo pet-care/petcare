@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3e2efcd-9e97-443b-b73a-524f9067a659" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
     </list>
     <ignored path="petcare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="41" />
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -146,7 +147,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Pet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
@@ -206,11 +207,11 @@
         <option value="$PROJECT_DIR$/src/main/java/gr/petcare/PersistenceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/gr/petcare/Persistence/DBConnectionFormator.java" />
         <option value="$PROJECT_DIR$/src/main/java/gr/petcare/Persistence/PersistenceConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/gr/petcare/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/gr/petcare/dao/PetDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/gr/petcare/Pet.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -936,7 +937,7 @@
       <workItem from="1460839707305" duration="6991000" />
       <workItem from="1460864147717" duration="1666000" />
       <workItem from="1460872303665" duration="1134000" />
-      <workItem from="1460876677665" duration="12387000" />
+      <workItem from="1460876677665" duration="12542000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1460792751617</created>
@@ -1260,11 +1261,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460889340353</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Deploy">
+      <created>1460889571806</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1460889571806</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42204000" />
+    <option name="totallyTimeSpent" value="42359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -1691,14 +1699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Persistence/DBConnectionFormator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1769,6 +1769,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
