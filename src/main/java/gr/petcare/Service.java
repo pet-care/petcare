@@ -44,6 +44,7 @@ public class Service {
     }
     @RequestMapping(value = "/new/pet", method = RequestMethod.POST)
     public ResponseEntity<Pet> createPet(@RequestBody @Valid final Pet pet) {
+
         this.userPets.add(pet);
         return null;
     }

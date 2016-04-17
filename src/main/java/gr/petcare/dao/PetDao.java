@@ -1,5 +1,6 @@
 package gr.petcare.dao;
 
+import gr.petcare.Pet;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -23,5 +24,9 @@ public class PetDao {
 
     public Long getPetCount() {
         return ((Long)entityManager.createQuery("select count (*) from Pet").getSingleResult());
+    }
+
+    public void savePet(Pet pet) {
+        entityManager.persist(pet);
     }
 }
