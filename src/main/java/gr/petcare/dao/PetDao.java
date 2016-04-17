@@ -18,10 +18,10 @@ public class PetDao {
     private EntityManager entityManager;
 
     public List getAll() {
-        return entityManager.createQuery("from Pets").getResultList();
+        return entityManager.createQuery("from Pet").getResultList();
     }
 
     public Long getPetCount() {
-        return ((Long)entityManager.createQuery("select count (*) from Pets").getSingleResult());
+        return ((Long)entityManager.createQuery("select count (*) from Pet").getSingleResult());
     }
 }
