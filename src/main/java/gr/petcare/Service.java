@@ -51,7 +51,7 @@ public class Service {
     public List<Pet> getUserPets() {
         return userPets;
     }
-    @RequestMapping("/get/all/pets")
+    @RequestMapping("/get/all")
     public  List<Pet> getAllPets() {
         pets = new ArrayList<Pet>();
         if (petDao.getPetCount() <= 50) pets = petDao.getAll();
