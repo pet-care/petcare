@@ -86,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -890,7 +890,7 @@
       <workItem from="1460839707305" duration="6991000" />
       <workItem from="1460864147717" duration="1666000" />
       <workItem from="1460872303665" duration="1134000" />
-      <workItem from="1460876677665" duration="8774000" />
+      <workItem from="1460876677665" duration="9176000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1460792751617</created>
@@ -1151,11 +1151,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460885480902</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="application properties syntax changes">
+      <created>1460886029609</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1460886029609</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38591000" />
+    <option name="totallyTimeSpent" value="38993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -1208,7 +1215,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added SpringBootServletInitializer" />
     <MESSAGE value="added Service class" />
     <MESSAGE value="added mock get pet service" />
     <MESSAGE value="added get Pet mock service" />
@@ -1233,7 +1239,8 @@
     <MESSAGE value="added migrations, pom dependencies and database related code" />
     <MESSAGE value="spring application properties file" />
     <MESSAGE value="package changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="package changes" />
+    <MESSAGE value="application properties syntax changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="application properties syntax changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1647,7 +1654,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
