@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 public class Service {
     private String  version = "1.0";
-    private List<Pet> pets= new ArrayList<Pet>();
+    private List<Pet> userPets= new ArrayList<Pet>();
     @RequestMapping("/version")
     public String getVersion() {
         return version;
@@ -31,16 +31,21 @@ public class Service {
     }
 
     @RequestMapping("/mock-pets")
-    public List<Pet> getPets() {
+    public List<Pet> getMockPets() {
+        List<Pet> pets= new ArrayList<Pet>();
         MockPetFactory petFactory = new MockPetFactory();
-        this.pets = petFactory.getPets();
-        return this.pets;
+        pets = petFactory.getPets();
+        return pets;
     }
     @RequestMapping(value = "/new/pet", method = RequestMethod.POST)
     public ResponseEntity<Pet> createPet(@RequestBody @Valid final Pet pet) {
-        this.pets.add(pet);
+        this.userPets.add(pet);
         return null;
-
     }
+    @RequestMapping("/user-pets")
+    public List<Pet> getUserPets() {
+        return userPets;
+    }
+
 
 }
