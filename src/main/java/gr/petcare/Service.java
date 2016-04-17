@@ -46,6 +46,7 @@ public class Service {
     public ResponseEntity<Pet> createPet(@RequestBody @Valid final Pet pet) {
 
         this.userPets.add(pet);
+        petDao.savePet(pet);
         return null;
     }
     @RequestMapping("/user-pets")
