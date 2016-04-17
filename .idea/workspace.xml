@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3e2efcd-9e97-443b-b73a-524f9067a659" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gr/petcare/Service.java" afterPath="$PROJECT_DIR$/src/main/java/gr/petcare/Service.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gr/petcare/dao/PetDao.java" afterPath="$PROJECT_DIR$/src/main/java/gr/petcare/dao/PetDao.java" />
     </list>
     <ignored path="petcare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Service.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="321">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1589#1590#0" expanded="true" />
@@ -132,18 +130,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MockPetFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/MockPetFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#418#419#0" expanded="false" />
-                <element signature="e#456#457#0" expanded="false" />
-                <element signature="e#1792#1793#0" expanded="false" />
-                <element signature="e#1823#1824#0" expanded="false" />
-              </folding>
+      <file leaf-file-name="petcare.Pets" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/f9befc11/1e618b8e-184d-4fdc-a510-5be269511bce/petcare.Pets">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -151,8 +148,8 @@
       <file leaf-file-name="Pet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Pet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="21">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -940,14 +937,7 @@
       <workItem from="1460839707305" duration="6991000" />
       <workItem from="1460864147717" duration="1666000" />
       <workItem from="1460872303665" duration="1134000" />
-      <workItem from="1460876677665" duration="13582000" />
-    </task>
-    <task id="LOCAL-00002" summary="added SpringBootServletInitializer">
-      <created>1460793913356</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1460793913356</updated>
+      <workItem from="1460876677665" duration="14444000" />
     </task>
     <task id="LOCAL-00003" summary="added Service class">
       <created>1460795821413</created>
@@ -1285,11 +1275,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460890581435</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Deploy">
+      <created>1460890782589</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1460890782589</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43399000" />
+    <option name="totallyTimeSpent" value="44261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -1763,16 +1760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/dao/PetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -1787,15 +1774,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gr/petcare/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="321">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1589#1590#0" expanded="true" />
             <element signature="e#1620#1621#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f9befc11/1e618b8e-184d-4fdc-a510-5be269511bce/petcare.Pets">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
