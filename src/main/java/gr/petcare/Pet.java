@@ -2,12 +2,19 @@ package gr.petcare;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import javax.persistence.*;
+import java.math.BigDecimal;
 /**
  * Created by user on 16/4/2016.
  */
+@Entity
+@Table(name = "Offers")
 public class Pet {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(nullable = false)
+    private Long Id;
     @Size(max = 64)
     private String name;
     @NotNull
