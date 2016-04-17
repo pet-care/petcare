@@ -21,7 +21,7 @@ public class Pet {
     private String ContactName;
     @NotNull
     @Size(max = 64)
-    private String phone;
+    private String contactPhone;
     @Lob
     private String photo;
     public String getName() {
@@ -32,8 +32,8 @@ public class Pet {
         return ContactName;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getContactPhone() {
+        return contactPhone;
     }
 
     public String getPhoto() {
@@ -48,8 +48,8 @@ public class Pet {
         ContactName = contactName;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setContactPhone(String contactPhone) {
+        this.contactPhone = contactPhone;
     }
 
     public void setPetPhoto(String photo) {

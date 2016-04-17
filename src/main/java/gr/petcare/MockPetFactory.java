@@ -44,7 +44,7 @@ public class MockPetFactory {
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
-        pet.setPhone("2321023768");
+        pet.setContactPhone("2321023768");
         pet.setPetName("Fung");
         pet.setContactName("John");
         return pet;
