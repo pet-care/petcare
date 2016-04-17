@@ -85,8 +85,8 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="125">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -890,7 +890,7 @@
       <workItem from="1460839707305" duration="6991000" />
       <workItem from="1460864147717" duration="1666000" />
       <workItem from="1460872303665" duration="1134000" />
-      <workItem from="1460876677665" duration="9176000" />
+      <workItem from="1460876677665" duration="9276000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1460792751617</created>
@@ -1158,11 +1158,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460886029609</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Deploy">
+      <created>1460886230583</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1460886230583</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38993000" />
+    <option name="totallyTimeSpent" value="39093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -1232,7 +1239,6 @@
     <MESSAGE value="removed unused line" />
     <MESSAGE value="added pet post method" />
     <MESSAGE value="Deploy add pet post service" />
-    <MESSAGE value="Deploy" />
     <MESSAGE value="deploying new pet post service" />
     <MESSAGE value="added some more pet saving services" />
     <MESSAGE value="pom db and persistence code added" />
@@ -1240,7 +1246,8 @@
     <MESSAGE value="spring application properties file" />
     <MESSAGE value="package changes" />
     <MESSAGE value="application properties syntax changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="application properties syntax changes" />
+    <MESSAGE value="Deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1653,8 +1660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding />
         </state>
       </provider>
