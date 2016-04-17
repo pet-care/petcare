@@ -22,7 +22,7 @@ public class Pet {
     @NotNull
     @Size(max = 64)
     private String phone;
-    @Column(length = 65535,columnDefinition="Text")
+    @Lob
     private String photo;
     public String getName() {
         return name;
