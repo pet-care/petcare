@@ -4,6 +4,8 @@ package gr.petcare;
  * Created by user on 16/4/2016.
  */
 
+import gr.petcare.dao.PetDao;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +20,9 @@ import java.util.List;
 public class Service {
     private String  version = "1.0";
     private List<Pet> userPets= new ArrayList<Pet>();
+    private List<Pet> pets = new ArrayList<Pet>();
+    @Autowired
+    private PetDao petDao;
     @RequestMapping("/version")
     public String getVersion() {
         return version;
@@ -46,6 +51,15 @@ public class Service {
     public List<Pet> getUserPets() {
         return userPets;
     }
+    @RequestMapping("/get/all/pets")
+    public  List<Pet> getAllPets() {
+        pets = new ArrayList<Pet>();
+        if (petDao.getPetCount() <= 50) pets = petDao.getAll();
+        else pets = petDao.getAll();
+        return pets;
+    }
+
+
 
 
 }
