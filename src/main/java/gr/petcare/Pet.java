@@ -2,9 +2,8 @@ package gr.petcare;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
-import java.math.BigDecimal;
+
 /**
  * Created by user on 16/4/2016.
  */
@@ -14,7 +13,7 @@ public class Pet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false)
-    private Long Id;
+    private Long id;
     @Size(max = 64)
     private String name;
     @NotNull
@@ -22,7 +21,7 @@ public class Pet {
     private String ContactName;
     @NotNull
     @Size(max = 64)
-    private String ContactPhone;
+    private String phone;
 
     private String photo;
     public String getName() {
@@ -33,8 +32,8 @@ public class Pet {
         return ContactName;
     }
 
-    public String getContactPhone() {
-        return ContactPhone;
+    public String getPhone() {
+        return phone;
     }
 
     public String getPhoto() {
@@ -49,8 +48,8 @@ public class Pet {
         ContactName = contactName;
     }
 
-    public void setContactPhone(String contactPhone) {
-        ContactPhone = contactPhone;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public void setPetPhoto(String photo) {
