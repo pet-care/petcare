@@ -9,7 +9,7 @@ import java.math.BigDecimal;
  * Created by user on 16/4/2016.
  */
 @Entity
-@Table(name = "Offers")
+@Table(name = "Pets")
 public class Pet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
